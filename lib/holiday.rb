@@ -44,9 +44,10 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
+  binding.pry
   holiday_hash.each do |keys, values|
     puts "#{keys}, #{values}"
-    
+
   end
 end
 
