@@ -48,6 +48,7 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |keys, values|
     string = puts "#{keys.flatten}, #{values.flatten}"
   end
+  string
 end
 
 def all_holidays_with_bbq(holiday_hash)
