@@ -46,7 +46,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
   holiday_hash.each do |keys, values|
-    string = puts "#{keys}, #{values}"
+    string == puts "#{keys}, #{values}"
   end
 binding.pry
   string.flatten
