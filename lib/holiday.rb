@@ -46,8 +46,7 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
   binding.pry
   holiday_hash.each do |keys, values|
-    puts "#{keys}, #{values}"
-
+    string =  puts "#{keys}, #{values}"
   end
 end
 
