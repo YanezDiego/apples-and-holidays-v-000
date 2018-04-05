@@ -49,7 +49,7 @@ def all_supplies_in_holidays(holiday_hash)
     string = puts "#{keys}, #{values}"
   end
     binding.pry
-  string
+  string.flatten
 end
 
 def all_holidays_with_bbq(holiday_hash)
